@@ -17,10 +17,24 @@ public class PracticeProblem {
 }
 
 	public static int divide(int a , int b){
+		try{
+			int div = a / b;
+			return div;
+		}
+		catch (ArithmeticException d){
+			return 0;
+		}
 
 	}
 
-	public static int safeConvertStringToInt(String toint){
+	public static int safeConvertStringToInt(String str){
+		try {
+			return Integer.parseInt(str);
+		}
+
+		catch (NumberFormatException i){
+			return 0;
+		}
 
 	}
 
