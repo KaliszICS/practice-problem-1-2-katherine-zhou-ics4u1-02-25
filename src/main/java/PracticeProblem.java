@@ -6,7 +6,7 @@ public class PracticeProblem {
 
 	public static boolean validIndex(int[] array, int num) {
 		try{
-			int value = arr[num];
+			int value = array[num];
 			return true;
 
 		}
@@ -26,7 +26,7 @@ public class PracticeProblem {
 
 	}
 
-	public static int safeConvertStringToInt(String str){
+	public static int safeConvertStringtoInt(String str){
 		try {
 			return Integer.parseInt(str);
 		}
