@@ -18,8 +18,7 @@ public class PracticeProblem {
 
 	public static int divide(int a , int b){
 		try{
-			int div = a / b;
-			return div;
+			return a/b;
 		}
 		catch (ArithmeticException d){
 			return 0;
